@@ -43,6 +43,9 @@
 </head>
 
 <body>
+  <div id="preloader">
+
+  </div>
 
   <div class="ie-overflow-fix" style="overflow:hidden;">
     <link rel="stylesheet" href="css/main-blue.css" data-pin="img/icofont-location-pin--blue.png">
@@ -643,7 +646,12 @@
     </footer>
 
   </div>
-
+  <script>
+    var loader = document.getElementById("preloader")
+    window.addEventListener("load", function () {
+      loader.style.display = "none"
+    })
+  </script>
   <script src="components/jquery.min.js"></script>
   <script src="components/wow.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
@@ -652,13 +660,6 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-
-  <!-- Google map -->
-  <!-- <script src="js/map.js"></script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD2GTLh7SeztYAZw5ln9zvSnBmkoFq5OM&callback=initMap">
-    </script> -->
-
 </body>
 
 </html>
