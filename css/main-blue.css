@@ -1403,11 +1403,11 @@ p {
   vertical-align: top;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .c-article__body {
-    width: calc(80% - 4px);
+    width: calc(100%);
   }
-}
+} */
 
 .c-article__header {
   margin-bottom: 5px;
