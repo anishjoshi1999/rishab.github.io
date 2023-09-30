@@ -1,0 +1,15 @@
+.video-link {
+    border: 1px solid #000;
+    padding: 5px 10px; /* Reduce vertical padding for a smaller size */
+    display: inline-block;
+    background-color: #2066a1;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px; /* Reduce font size for a smaller size */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.video-link:hover {
+    background-color: #fff; /* Change background color to white on hover */
+    color: #2066a1; /* Change text color to #2066a1 on hover */
+}
