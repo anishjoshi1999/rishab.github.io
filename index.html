@@ -275,25 +275,15 @@
                     </p>
                   </div>
                   <div class="c-card__modal-content js-card-modal-content">
-                    <p class="c-card__text">This project is the simulation of the cooperative pursuit based on the
-                      guidance law in the paper “Cooperative Pursuit Guidance to Surround Intruder Swarms Using
-                      Collision Cones” by Dr. Animesh Chakravarthy and Dr. Debasish Ghose. This paper addresses the
-                      problem of n unmanned aerial vehicles (UAVs) pursuing a swarm of target UAVs moving on a plane.
-                      The guidance laws are developed based on the collision cone framework, using which the pursuing
-                      UAVs can cooperatively steer the velocity vector of any point in their convex hull, to intercept
-                      the target. In this simulation, 3 pursuit UAVs are assumed to be carrying a rope line in an
-                      open-chain configuration, and capture is said to occur when the pursuing UAVs have enclosed the
-                      target swarm within their convex hull as well as ensured that the formation approaches the target
-                      at an appropriate orientation that corresponds with the open end of the rope line. The target UAV
-                      swarm is assumed to be a circle. In addition to the simulation, I am currently working on the ROS
-                      simulation of this mission by adding the UAV dynamics and controllers to the system. I am using
-                      crazyflie as the pursuing UAVs as well as the intruder swarms. After the ROS Simulation, I plan on
-                      implementing this algorithm to the crazyflie drones in the lab.
+                    <p class="c-card__text">I am currently working on Cooperative Pursuit Guidance to Surround Intruder Swarms Using Collision Cones Applied to Quadrotor Platform’ as my thesis topic. This paper addresses the problem of n unmanned aerial vehicles (UAVs) pursuing a swarm of target UAVs moving on a plane. The guidance laws are developed based on the collision cone framework, using which the pursuing UAVs can cooperatively steer the velocity vector of any point in their convex hull, to intercept the target. In this simulation, 5 pursuit UAVs are assumed to be carrying a rope line in an open-chain configuration, and capture is said to occur when the pursuing UAVs have enclosed the target swarm within their convex hull as well as ensuring that the formation approaches the target at an appropriate orientation that corresponds with the open end of the rope line. The target UAV swarm is assumed to be a circle. In addition to the MATLAB and ROS-Gazebo simulation, implementation of a swarm approximation algorithm and sensor fusion techniques. This contribution aims to develop robust swarm surveillance capabilities and enhance the overall effectiveness of my guidance algorithm.
                     </p>
                     <p class="c-card__link-caption">For more details</p>
                     <a class="c-card__link"
-                      href="https://drive.google.com/file/d/1egpdTkaquEXG6dAaPhHwcBVsleaiB31z/view?fbclid=IwAR2O6Qcf4iERY0kLixss2q0gIJHAlEEFw3YDoD153YjmpuEB8pImOFXzOfU"
-                      target="_blank">Click Here!</a>
+                      href="https://youtu.be/zxw42e8-1Dg?si=zTaWTqSFAdkgfYki"
+                      target="_blank">Youtube Link 1</a>
+                      <a class="c-card__link"
+                      href="https://youtu.be/zxw42e8-1Dg?si=zTaWTqSFAdkgfYki"
+                      target="_blank">Youtube Link 2</a>
                   </div>
                 </div>
                 <div class="c-card__button">
@@ -450,6 +440,39 @@
                   <button class="c-card__button-field" type="button"></button>
                 </div>
               </div>
+              <div class="c-card__item js-toggle-modal">
+                <div class="c-card__sizer"></div>
+                <div class="c-card__inner">
+                  <div class="c-card__icon">
+                    <i class="icofont icofont-sand-clock"></i>
+                  </div>
+                  <h4 class="c-card__header">3D Collision Avoidance for Quadrotors</h4>
+                  <div class="c-card__content js-card-content">
+                    <p class="c-card__text">This paper introduces an advanced collision avoidance method for UAVs in complex environments with moving objects, using more accurate obstacle shape models.
+
+                    </p>
+                  </div>
+                  <div class="c-card__modal-content js-card-modal-content">
+                    <p class="c-card__text">The ability of a UAV to achieve reactive collision avoidance in environments comprising multiple moving
+                      objects is an important enabler for the UAV to perform autonomous missions. In performing collision
+                      avoidance maneuvers, the relative shapes of the objects play an important role. The literature largely
+                      models the shapes of the objects as spheres, and this can make the avoidance maneuvers very
+                      conservative, especially when the objects are of elongated shape and/or are non-convex. In this paper,
+                      we model the shapes of the objects using suitable combinations of ellipsoids and one-sheeted or twosheeted hyperboloids and use a collision cone-based approach to compute collision avoidance
+                      maneuvers. The algorithm to construct a 3D collision cone for an object is initially described, followed by
+                      computation of the obstacle avoidance law. The algorithm is validated on a PX4-based UAV on ROSGazebo, as well as hardware experiments on an actual quadrotor system.
+                    </p>
+                    <p class="c-card__link-caption">For more details</p>
+                    <a class="c-card__link"
+                      href="#"
+                      target="_blank">Click Here!</a>
+                  </div>
+                </div>
+                <div class="c-card__button">
+                  <button class="c-card__button-field" type="button"></button>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
